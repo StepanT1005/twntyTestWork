@@ -1,0 +1,23 @@
+@import "fonts.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: T TTNormsPro-Regular;
+}
+h2 {
+  margin: 0px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #f0f0f1;
+  cursor: pointer;
+}
